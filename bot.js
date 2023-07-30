@@ -104,9 +104,6 @@ let isCityAsked = null;
 let previousMessage = null;
 
 async function weather(message, say) {
-
-    console.log("isCityAsked: ", isCityAsked);
-    console.log("prevMessage: ", previousMessage);
   
     let sentence = message.text.toLowerCase();
 
@@ -117,15 +114,10 @@ async function weather(message, say) {
 
     isCityAsked = true;
     previousMessage = sentence;
-
-    console.log('isCityAsked: ', isCityAsked);
-    console.log('prevMessage: ', previousMessage)
   }
 };
 
 app.message(async({message, say}) => {
-
-    console.log('Inside message, isCityAsked: ', isCityAsked);
     
     if(isCityAsked == true) {
         const city = message.text;
@@ -143,6 +135,8 @@ app.message(async({message, say}) => {
           await say(
             `Today's weather in ${city}: \nTemperature: ${temperature}°C \nDescription: ${description}`
           );
+
+          isCityAsked = false;
         } catch (err) {
           await say(`Error while finding weather for ${city}`);
         }
@@ -150,8 +144,6 @@ app.message(async({message, say}) => {
 
     else {
 
-        console.log("Inside message, isCityAsked: ", isCityAsked);
-        
         const greetArray = ["hi", "hello", "hey"];
         const timeArray = ["time"];
         const weatherArray = ["weather"];
