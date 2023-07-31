@@ -1,10 +1,15 @@
 # SlackBot_DigitalMain_using_BOLT_Node.js
 
-This is a Slack bot developed using Node.js and @slack/bolt that can respond to commands and provide information based on user input. The bot supports custom slash commands and interactive messages with buttons to enhance the user experience.
+This is a Slack bot developed using Node.js and @slack/bolt that can respond to commands and provide information based on user input. It also tells a joke, if you'll ask for it. The bot supports custom slash commands and interactive messages with buttons to enhance the user experience. 
 
 ![chatbot1](https://github.com/piyushjadhav2804/SlackBot_DigitalMain_using_BOLT_Node.js/assets/71430828/85d22136-368e-4b18-8ee1-cc190b0f7838)
 
 ![chatbot2](https://github.com/piyushjadhav2804/SlackBot_DigitalMain_using_BOLT_Node.js/assets/71430828/27549542-9289-4fb3-bb48-0da7d6b8e57a)
+
+Tells a joke
+
+![chatbot3](https://github.com/piyushjadhav2804/SlackBot_DigitalMain_using_BOLT_Node.js/assets/71430828/c01ea40c-ab26-4bc0-bc8d-e1e809e7912a)
+
 
 ## Requirements
 
@@ -43,6 +48,7 @@ You can either write command or a complete sentence
 - time: fetches the current time in IST
 - help: shows list of commands and also gives you interactive buttons
 - weather: fetches weather of the city you entered
+- joke: tells a random joke
   
 
 ## Credits
