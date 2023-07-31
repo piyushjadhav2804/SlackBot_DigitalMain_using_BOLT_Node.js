@@ -56,6 +56,19 @@ You can either write command or a complete sentence
 - help: shows list of commands and also gives you interactive buttons
 - weather: fetches weather of the city you entered
 - joke: tells a random joke
+
+## Custom Commands
+
+You can use the following custom slash commands:
+- /mybot hello: greets you
+- /mybot time: shows the time
+- /mybot help: shows list of commands
+
+## Interactive Buttons
+
+When you type help command, it gives two interative buttons:
+- Hello: greets you
+- Time: tells you the time
   
 
 ## Credits
