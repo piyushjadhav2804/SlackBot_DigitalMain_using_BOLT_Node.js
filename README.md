@@ -2,6 +2,10 @@
 
 This is a Slack bot developed using Node.js and @slack/bolt that can respond to commands and provide information based on user input. The bot supports custom slash commands and interactive messages with buttons to enhance the user experience.
 
+![chatbot1](https://github.com/piyushjadhav2804/SlackBot_DigitalMain_using_BOLT_Node.js/assets/71430828/85d22136-368e-4b18-8ee1-cc190b0f7838)
+
+![chatbot2](https://github.com/piyushjadhav2804/SlackBot_DigitalMain_using_BOLT_Node.js/assets/71430828/27549542-9289-4fb3-bb48-0da7d6b8e57a)
+
 ## Requirements
 
 - Node.js (>=10.0.0)
